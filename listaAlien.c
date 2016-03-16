@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
+//definicion de las estructuras
 typedef struct alien_t {
 	char nombre[30];
 	int id;
