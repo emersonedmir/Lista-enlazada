@@ -12,7 +12,7 @@ typedef struct alien_t {
 	struct alien_t *siguiente;
 
 }aliens;
-
+//definicion de planeta
 typedef struct planeta_t {
 
 	char nombre[30];
@@ -21,7 +21,7 @@ typedef struct planeta_t {
 	char oxigeno;
 	struct planeta_t *siguiente;
 }planeta;
-
+//definicion de idioma
 typedef struct idioma_t {
 	char nombre[30];
 	char tipo[30];
@@ -35,8 +35,8 @@ int main()
 {
 	
 	
-
-	aliens *nuevo = malloc(sizeof(aliens));
+    //creando instancias y pidiendo memoria
+    aliens *nuevo = malloc(sizeof(aliens));
     planeta *nuevoplt = malloc(sizeof(planeta));
     idioma *nuevoidm = malloc(sizeof(idioma));
     
